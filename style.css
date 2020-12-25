@@ -7,12 +7,13 @@ body {
     font-family: monospace;
 }
 
+/* Main */
 .main {
     background-color: cyan;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .main .main-content {
@@ -23,8 +24,14 @@ body {
 /* Sidebar */
 .main navbar {
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
     /* height: 100vh; */
 }
+
+.nav-items { order: 1;}
+.mode { order: 2;}
 
 .main navbar ul {
     display: flex;
@@ -34,13 +41,27 @@ body {
     align-items: center;
     justify-content: space-evenly;
     top: 0;
-    width: 28%;
-    height: 100vh;
+    width: 20%;
+    height: 100%;
     background-color: darkgray;
     right: 0;
     width: 20%;
 }
 
+.main navbar .mode{
+    display: flex;
+    position: absolute;
+    /* margin: 5px; */
+    /* align-items: center; */
+    right: 0;
+    width: 20%;
+    height: 15%;
+    bottom: 0;
+    align-items: center;
+}
+
 .main navbar ul li a{
     text-decoration: none;
 }
+
+
