@@ -1,0 +1,46 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+}
+
+.main {
+    background-color: cyan;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* height: 100vh; */
+}
+
+.main .main-content {
+    display: flex;
+
+}
+
+/* Sidebar */
+.main navbar {
+    display: flex;
+    /* height: 100vh; */
+}
+
+.main navbar ul {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0;
+    width: 28%;
+    height: 100vh;
+    background-color: darkgray;
+    right: 0;
+    width: 20%;
+}
+
+.main navbar ul li a{
+    text-decoration: none;
+}
