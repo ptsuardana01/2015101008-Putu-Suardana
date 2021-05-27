@@ -1,3 +1,4 @@
+// ========== Hambuerger Menu Animation ==========
 const menuToggle = document.querySelector('.menu-toggle input');
 const navbar = document.querySelector('navbar ul');
 

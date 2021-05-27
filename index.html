@@ -5,38 +5,38 @@
     <meta name="viewport" content="width= , initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/599795be6f.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>My Protofolio Website</title>
 </head>
 <body>
-     <!-- Main -->
+     <!-- MAIN -->
+     <!-------- HOME start -------->
     <section class="main" id="home"> 
-        <!-- Home -->
-        <div class="start" ></div>
-        <div class="back">
-            <img src="image/bg_1.png" alt="">
-        </div>
-        <div class="main-content">
-            <h2>Haii..</h2>
-            <h1>I'm Putu Suardana</h1>
-            <h4>Web Developer</h4>
+        <div class="bg-home">
+            <div class="main-content">
+                <h2>Haii..</h2>
+                <h1><span>I'm Putu Suardana</span></h1>
+                <h4>Web Developer</h4>
+            </div>
+            <div class="back">
+                <img src="image/ptsuardana01.png" alt="">
+            </div>
         </div>
 
-        <!-- Side Bar (Right) -->
+        <!-- SIDE BAR (Right) -->
         <navbar class="side">
+            <div class="logo">
+                <a href="#home" class="logo_text">ptsuardana01</a>
+            </div>
+            
             <ul class="nav_items">
-                <li><a href="#home"><i class="fas fa-home">Home</i></a></li>
-                <li><a href="#about-me"><i class="fas fa-address-card">About Me</i></a></li>
-                <li><a href="#"><i class="fas fa-briefcase">Project</i></a></li>
-                <li><a href="#"><i class="fas fa-mobile">Contact</i></a></li>
-                <!-- switch mode -->
-                <li><div class="mode">
-                    <div>Mode : </div>
-                    <button class="dark">Dark</button>
-                    <button class="light">Light</button>
-                </div></li>
+                <li><a href="#home" class="nav_link"><i class="fas fa-home"> Home</i></a></li>
+                <li><a href="#about-me" class="nav_link"><i class="fas fa-address-card"> About Me</i></a></li>
+                <li><a href="#my-skills" class="nav_link"><i class="fas fa-briefcase"> Skills</i></a></li>
+                <li><a href="#project" class="nav_link"><i class="fas fa-briefcase"> Project</i></a></li>
+                <li><a href="#contact" class="nav_link"><i class="fas fa-mobile"> Contact</i></a></li>
             </ul>
 
-            <!-- Animasi navbar -->
+            <!-- ANIMATION BAR -->
             <div class="menu-toggle">
                 <input type="checkbox">
                 <span></span>
@@ -44,17 +44,162 @@
                 <span></span>
             </div>
         </navbar>
+    </section>
+    <!-------- HOME end -------->
+
+
+    <!--------- ABOUT ME start --------->
+    <section class="about" id="about-me">
+        <h1 class="about__title">About</h1>
+
+        <div class="container-about">
+            <div class="foto__about">
+                <img src="image/about_profil.png" alt="">
+            </div>
+
+            <div class="deks__about">
+                <h2 class="about__subtitle">I'am Putu Suardana</h2>
+                <span class="about__profession">Web Designer</span>
+                <p class="about__text">My name is Putu Suardana, Coding has changed my world. 
+                    It's not just about apps. Learning to code gave me problem-solving skills and a way to 
+                    communicate with others on a technical level. I can also develop websites and use my 
+                    coding skills to get a better job.
+                    <br><br>
+                    "Declare variables, not war"</p>
+            </div>
+
+            <div class="about__sosmed">
+                <a href="" class="about__sosmed-icon">ig</a>
+                <a href="" class="about__sosmed-icon">github</a>
+                <a href="" class="about__sosmed-icon">gitlab</a>
+            </div>
+        </div>
+    </section>
+    <!--------- ABOUT ME end --------->
+
+    <!--------- SKILLS start --------->
+    <section class="skills" id="my-skills">
+        <h1 class="skills__title">Skills</h1>
+
+        <div class="skills__container">
+            <div class="skills__box">
+                <h2 class="skills__subtitle">Programming</h2>
+                <span class="skill__name">Html</span>
+                <span class="skill__name">Css</span>
+                <span class="skill__name">JavaScript</span>
+                <span class="skill__name">C++</span>
+                <span class="skill__name">C</span>
+
+                <h2 class="skills__subtitle">Design & Editor</h2>
+                <span class="skill__name">Adobe XD</span>
+                <span class="skill__name">Canva</span>
+                <span class="skill__name">Adobe Premiere Pro</span>
+                <span class="skill__name">Capcut</span>
+                <span class="skill__name">Vn</span>
+            </div>
+        </div>
+
+        <div class="skills__img">
+            <img src="/image/logo-fix.png" alt="">
+        </div>
 
     </section>
+    <!--------- SKILLS end --------->
 
-    <section class="about" id="about-me">
-        <h2>About Me</h2>
-        <div class="about-content">
+    <!--------- PROJECT start --------->
+    <section class="project__section" id='project'>
+        <h2 class="project__title">Project</h2>
+
+        <div class="project__container">
+            <div class="project__img">
+                <img src="/image/User-login.png" alt="">
+                        
+                <div class="project__link">
+                    <a href="" class="project__link-name">View more</a>
+                </div>
+            </div>
+
+            <div class="project__img">
+                <img src="/image/First-page.png" alt="">
+                        
+                <div class="project__link">
+                    <a href="" class="project__link-name">View more</a>
+                </div>
+            </div>
+
+            <div class="project__img">
+                <img src="/image/gryffindor.png" alt="">
+                        
+                <div class="project__link">
+                    <a href="" class="project__link-name">View more</a>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!--------- PROJECT end --------->
 
 
+    <!--------- CONTACT start --------->
+    <section class="contact_section" id="contact">
+        <h2 class="contact__title">Contact</h2>
+
+        <div class="contact_container">
+            <h3 class="contact_subtitle">EMAIL</h3>
+            <span class="contact_text">ptsuardana01@gmail.com</span>
+
+            <h3 class="contact_subtitle">PHONE</h3>
+            <span class="contact_text">+62 818-0522-5271</span>
+
+            <h3 class="contact_subtitle">ADDRESS</h3>
+            <span class="contact_text">Singaraja, Bali</span>
+        </div>
+
+        <form action="" class="contact_form">
+            <div class="contact_inputs">
+                <input type="text" placeholder="Name" class="contact_input">
+                <input type="mail" placeholder="Email" class="contact_input">
+            </div>
+
+            <textarea name="" id="" cols="0" rows="3" class="contact_input"></textarea>
+            <p class="contact_me">*If you have a question, you can write it here <br> Thank you :)</p>
+
+            <input type="submit" value="Send" class="contact_button">
+        </form>
+    </section>
+
+    <!---------- CONTACT end ---------->
+
+
+    <!--------- FOOTER start --------->
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footer_data">
+                <h2 class="footer_title">PUTU SUARDANA</h2>
+                <p class="footer_text">I'm Putu Suardana and this is my personal website</p>
+            </div>
+
+            <div class="footer_data">
+                <h2 class="footer_title">EXPLORE</h2>
+                <ul>
+                    <li><a href="#home" class="footer_link">Home</a></li>
+                    <li><a href="#about-me" class="footer_link">About</a></li>
+                    <li><a href="#my-skills" class="footer_link">Skills</a></li>
+                    <li><a href="#project" class="footer_link">Project</a></li>
+                    <li><a href="#contact" class="footer_link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_data">
+                <h2 class="footer_title">FOLLOW</h2>
+                <a href="" class="footer_social">ig</a>
+                <a href="" class="footer_social">fc</a>
+                <a href="" class="footer_social">tw</a>
+            </div>
+        </div>
+    </footer>
+
+    <!---------- FOOTER end ---------->
     <script src="script.js"></script>
 
 </body>
